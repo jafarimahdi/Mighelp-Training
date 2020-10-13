@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<htm lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drog & Drop</title>
+    <script>
+        function dragStart(e) {
+            // Sets the operation allowed for a drag source
+            e.dataTransfer.effectAllowed = "move";
+        
+            // Sets the value and type of the dragged data
+            e.dataTransfer.setData("Text", e.target.getAttribute("id"));
+        }
+        function dragOver(e) {
+            // Prevent the browser default handling of the data
+            e.preventDefault();
+            e.stopPropagation();
+        }
+        function drop(e) {
+            // Cancel this event for everyone else
+            e.stopPropagation();
+            e.preventDefault();
+        
+            // Retrieve the dragged data by type
+            var data = e.dataTransfer.getData("Text");
+        
+            // Append image to the drop box
+            e.target.appendChild(document.getElementById(data));
+        }
+    </script>
+    <style>
+        #dropBox {
+            width: 200px;
+            height: 200px;
+            border: 5px dashed gray;
+            background: lightyellow;
+            text-align: center;
+            margin: 20px 0;
+            color: orange;
+        }
+        #dropBox img {
+            margin: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>Drog & Drop</h2>
+    <p>Drag and drop your image in the drop box</p>
+    <div id="dropBox" ondragover="drogOver(event);" ondrop="drop(event);">
+      <!-- The deopped image will be inserted here -->
+
+    </div>
+      <img
+        src="112.png"
+        id="dragA"
+        draggable="true"
+        ondragstart="dragStart(event);"
+        width="180"
+        height="180"
+        alt="dragAndDrop image"
+      >
+  </body>
+</htm
