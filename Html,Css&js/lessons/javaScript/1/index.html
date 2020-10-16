@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js- Variables, Arrays, Objects</title>
+    <style>
+      #test {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="test"></div>
+    <script>
+      // 4 way of output in javascript
+
+      // console.log('Hello World');
+      // document.write('hello from the document.write()  ');
+      // window.alert('Hello for the Alert')
+      // document.getElementById('test').innerHTML="Mighelp says, Hello Mahdi";
+
+      // variables
+
+      var x = 15;
+      // console.log(x);
+
+      var person = "Mighelp";
+      // console.log(person);
+
+      var a = 3,
+        b = 4,
+        c = 5;
+      // console.log(b);
+
+      // Array
+      var animals = ["dog", "Lion", "elephant", "Leopard"];
+      // console.log(animals);
+
+      // add to Array methods  { 1-push  2-  }
+      animals[4] = "cat";
+      animals.push("Goat");
+      // console.log(animals)
+
+      // secund way of Array
+      var developer = [];
+      developer["name"] = "jafari Mahdi";
+      developer["city"] = "Budapest";
+      developer["specialization"] = "webDeveloper";
+      // console.log(developer);
+
+      // Objects
+
+      var car = { make: "Ford", model: "Mustang", year: 1967 };
+
+      console.log(car);
+      console.log(car.model);
+
+      // Array of Objects
+      var cars = [
+        { make: "Ford", model: "Mustang", year: 1967 },
+        { make: "Toyota", modal: "prado", year: 2019 },
+        { make: "WV", modal: "Passat", year: 2013 },
+      ];
+
+      console.log(cars);
+
+     console.log(cars[2].make)
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
