@@ -21,3 +21,6 @@ body{
 #About .fa:hover{
     color: black;
 }
+#Experience .card{
+    border-top: 2px solid #2c3e50;
+}
