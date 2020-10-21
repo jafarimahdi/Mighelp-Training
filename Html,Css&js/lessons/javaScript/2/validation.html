@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <title>Form Validation in JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <h2 class="text-center">Registration Form</h2>
+      <div class="alert" id="msg"></div>
+      <form id="register-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" class="form-control" id="confirm-password" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <script>
+      function registerFun(e) {
+        e.preventDefault();
+
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var password2 = document.getElementById("confirm-password").value;
+        var message = document.getElementById("msg");
+        // console.log("submitted... ");
+
+        if (
+          name === "" ||
+          email === "" ||
+          password === "" ||
+          password2 === ""
+        ) {
+          message.classList = "alert alert-danger";
+          message.innerHTML = "please check it agin";
+        } else {
+          if (password2 != password) {
+            message.classList = "alert alert-danger";
+            message.innerHTML = "password it's not correct";
+          } else {
+            message.classList = "alert alert-success";
+            message.innerHTML = "Thanks for submitted ";
+          }
+        }
+      }
+
+      //    run the function for the form here
+      document
+        .getElementById("register-form")
+        .addEventListener("submit", registerFun, false);
+    </script>
+  </body>
+</html>
