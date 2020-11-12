@@ -1,0 +1,105 @@
+.container{
+ margin: 10% 33%;
+
+}
+.domino, #box1 , #box2 {
+    width: 20vw;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+.dot{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+/* Domino numbers  */
+
+#one>.dot{
+    position: relative;
+    margin-top: 38%;
+    margin-left: 40%;
+}
+ /* two dot  */
+#two >#two-1{
+    position: relative;
+    left: 75%;
+    top: 15%;
+}
+#two #two-2{
+    position: relative;
+    left: 15%;
+    top: 60%;
+}
+ /* third dot  */
+
+ #tree #tree-1{
+     position: relative;
+     left: 75%;
+     top: 15%;
+ }
+ #tree #tree-2{
+    position: relative;
+    left: 46%;
+    top: 33%;
+ }
+ #tree #tree-3{
+    position: relative;
+    left: 15%;
+    top: 50%;
+}
+
+/* forth part  */
+#four #four-1{
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+#four #four-2{
+    position: relative;
+    left: 65%;
+    top: 5%;
+}
+#four #four-3{
+    position: relative;
+    left: 65%;
+    top: 53%;
+}
+#four #four-4{
+    position: relative;
+    left: 15%;
+    top: 37%;
+}
+
+/* fifth part  */
+#five #five-1{
+    position: relative;
+     left: 75%;
+     top: 15%;
+}
+#five #five-2{
+    position: relative;
+    left: 46%;
+    top: 33%;
+}
+#five #five-3{
+    position: relative;
+    left: 15%;
+    top: 50%;
+}
+#five #five-4{
+    position: relative;
+    left: 15%;
+    top: -30%;
+}
+#five #five-5{
+    position: relative;
+    left: 75%;
+    top: 17%;
+}
+/* six one  */
+#six{
+    flex-direction:column ;
+}
