@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "player1 table  table table player2"
+    "main-player main-player main-player main-player main-player";
+  margin: 10px;
+}
+
+header {
+  grid-area: header;
+  background-color: rgb(35, 193, 193);
+  height: 100px;
+}
+#player1,
+#player2 {
+  background-color: rgb(118, 93, 67);
+  min-height: 400px;
+  min-width: 20%;
+}
+#player1 {
+  grid-area: player1;
+}
+#player2 {
+  grid-area: player2;
+}
+#table {
+  grid-area: table;
+  background-color: darkgreen;
+}
+#main-player {
+  grid-area: main-player;
+  background-color: blue;
+  min-height: 300px;
+}
