@@ -1,0 +1,4 @@
+
+Apache and mySql: https://coolestguidesontheplanet.com/install-apache-mysql-php-on-macos-mojave-10-14/
+
+xampp & sql : https://youtu.be/L2X6fDiqOC4
