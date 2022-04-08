@@ -1,0 +1,6 @@
+In this assignment,you will create a registration form, similar to the image shared.
+Use javascript to ensure that all inputs have some data and not blank!
+Where no letters are not allowed like the phone number, ensure that it is checked to ensure only numbers are input.
+After all this is done, upload it to your folder.
+
+NB: Use the bootstrapcdn version 4.5.2
