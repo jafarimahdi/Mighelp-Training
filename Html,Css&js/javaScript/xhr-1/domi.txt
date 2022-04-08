@@ -1,2 +1,0 @@
-Hi, we try to practice on XML HTTP Requests fom the bigging again 
-add the normal text is easy to get but we try to make event and use for it .
