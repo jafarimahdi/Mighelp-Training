@@ -1,0 +1,51 @@
+body {
+    background: #666;
+    color: #fff;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  ul {
+    padding: 0;
+  }
+  #container {
+    background: #333;
+    width: 960px;
+    margin: 30px auto;
+    overflow: hidden;
+    padding: 10px;
+  }
+  nav {
+    height: 40px;
+    background: #666;
+  }
+  nav ul {
+    padding-top: 13px;
+    padding-left: 10px;
+  }
+  nav li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+  }
+  main {
+    float: left;
+    width: 60%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    background: #666;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  #clear {
+    clear: both;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #666;
+    margin-top: 30px;
+  }
