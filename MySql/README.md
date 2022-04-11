@@ -1,7 +1,7 @@
 # MySql
 
-<image src="https://github.com/jafarimahdi/MySql/blob/master/pic/sQL.jpg" width=400>
-<image src="https://github.com/jafarimahdi/MySql/blob/master/pic/select.png" width=350>
+<image src="https://github.com/jafarimahdi/NextStep-Training/blob/main/MySql/pic/sQL.jpg" width=400>
+<image src="https://github.com/jafarimahdi/NextStep-Training/blob/main/MySql/pic/select.png" width=350>
 
 ### Basics
 
@@ -164,7 +164,7 @@ Example: Skip 6 customers and return 3
     LIMIT 6, 3
 ---
 
-<image src="https://github.com/jafarimahdi/MySql/blob/master/pic/SqlJoins.png" width=250>
+<image src="https://github.com/jafarimahdi/NextStep-Training/blob/main/MySql/pic/SqlJoins.png" width=250>
 
 ### Inner Joins
 
