@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <title>Json & Ajax</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row mt-5">
-        <!-- <div class="col"> -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <title>Json & Ajax</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-5">
+                <h2>JSON and AJAX:</h2>
+                <button class="btn btn-info ml-5" id="btn">
+                    Fetch Info for 3 New Animals
+                </button>
+            </div>
 
-        <h2>JSON and AJAX:</h2>
-        <button class="btn btn-info ml-5" id="btn">
-          Fetch Info for 3 New Animals
-        </button>
+            <div class="row mt-5">
+                <table
+                    id="animal-info"
+                    class="m-3 table table-hover table-condensed"
+                ></table>
+            </div>
 
-        <!-- </div> -->
-        <div id="animal-info" class="mt-3"></div>
-      </div>
-    </div>
-    
-    <script src="min.js"></script>
-  </body>
+            <!-- <div class="row mt-5">
+                <ul id="animal-info" class="mt-3"></ul>
+            </div> -->
+        </div>
+
+        <script src="min.js"></script>
+    </body>
 </html>

@@ -1,63 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Third Lesson</title>
-    <style>
-#myCanvas{
-    background-color: gray;
-}
-    </style>
-</head>
-<body>
-    <video src="https://upload.wikimedia.org/wikipedia/commons/a/a8/First_flights_in_aviation_history.ogv" controls> 
-    add the video has secund way too
-    </video><br><br>
-    <audio id="myAudio" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Lorem_ipsum.ogg" controls>
-    secund part of the add media
-    </audio>
-    <button onclick="document.getElementById('myAudio').play()">play</button>
-    <button onclick="document.getElementById('myAudio').pause()">pause</button><br><br>
-   
-    
-    <!-- different between SVG and CANVAS and play for it  -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Media</title>
+        <style>
+            #myCanvas {
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <video
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a8/First_flights_in_aviation_history.ogv"
+            controls
+        >
+            add the video has secund way too
+        </video>
+        <br /><br />
 
-    <canvas id="myCanvas" width="800" height="600">
+        <audio
+            id="myAudio"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/de/Lorem_ipsum.ogg"
+            controls
+        >
+            secund part of the add media
+        </audio>
+        <button onclick="document.getElementById('myAudio').play()">
+            play
+        </button>
+        <button onclick="document.getElementById('myAudio').pause()">
+            pause</button
+        ><br /><br />
 
-        <script>
-            var canvasItem = document.getElementById("myCanvas");
-            var context = canvasItem.getContext('2d');
+        <!-- different between SVG and CANVAS and play for it  -->
 
-            context.fillStyle = 'blue';
-            context.fillRect(75,75,150,150);
+        <canvas id="myCanvas" width="800" height="600">
+            <script>
+                var canvasItem = document.getElementById("myCanvas");
+                var context = canvasItem.getContext("2d");
 
-            // drawing a circle 
-            context.arc(150,300, 70, 0, 2*Math.PI);
-            context.stroke();
+                context.fillStyle = "blue";
+                context.fillRect(75, 75, 150, 150);
 
+                // drawing a circle
+                context.arc(150, 300, 70, 0, 2 * Math.PI);
+                context.stroke();
 
-            // drawing the new canvas as 
-            context.font = '50px Tahoma';
-            context.strokeStyle ='black';
-            context.strokeText('Hey whats up..',320 ,150);
+                // drawing the new canvas as
+                context.font = "50px Tahoma";
+                context.strokeStyle = "black";
+                context.strokeText("Hey whats up..", 320, 150);
+            </script>
+        </canvas>
 
-        </script>
+        <!--•••••••••• svg part ********* -->
+        <p>form here we work for SVG</p>
 
-    </canvas>
-
-
-    <!--•••••••••• svg part ********* -->
-    <p>form here we work for SVG </p>
-
-    <svg width="300" height="400">
-        <circle  cx="100" cy="100" r="80" stroke-with="4" fill="green"></circle>
-    </svg>
-    <svg width="400" height="400">
-        <rect width="200" height="200" style="fill:red;stroke-with:1;stoke:black;"  /> 
-    </svg><br>
-    <svg width="400" height="400">
-        <polygon points="100, 10 40, 198 190, 78 10, 78 160, 198 " style="fill:aqua; stroke:black; stroke-with:5; fill-rule:even-odd"/> 
-    </svg>
-</body>
+        <svg width="300" height="400">
+            <circle
+                cx="100"
+                cy="100"
+                r="80"
+                stroke-with="4"
+                fill="green"
+            ></circle>
+        </svg>
+        <svg width="400" height="400">
+            <rect
+                width="200"
+                height="200"
+                style="fill: red; stroke-with: 1; stoke: black"
+            /></svg
+        ><br />
+        <svg width="400" height="400">
+            <polygon
+                points="100, 10 40, 198 190, 78 10, 78 160, 198 "
+                style="
+                    fill: aqua;
+                    stroke: black;
+                    stroke-with: 5;
+                    fill-rule: even-odd;
+                "
+            />
+        </svg>
+    </body>
 </html>

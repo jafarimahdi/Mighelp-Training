@@ -1,80 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FlexBox</title>
-    <style>
-      article {
-        column-count: 3;
-        column-gap: 40px;
-        /* column-rule-style: solid;
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FlexBox</title>
+        <style>
+            article {
+                column-count: 3;
+                column-gap: 40px;
+                /* column-rule-style: solid;
         column-rule-width: 1px; */
-        column-rule: 1px solid coral;
-      }
-      article h2 {
-        column-span: all;
-      }
-      .textBox1 {
-        border: 2px solid;
-        padding: 20px;
-        width: 300px;
-        overflow: hidden;
-        resize: both;
-      }
-      .textBox2 {
-        margin: 20px;
-        padding: 20px;
-        width: 300px;
-        height: 100px;
-        border: 1px solid red;
-        outline: 1px solid blue;
-        outline-offset: 10px;
-      }
-      .flex {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 400px;
-        height: 250px;
-        background-color: #000000;
-      }
-      .flexItem {
-        background-color: skyblue;
-        height: 100px;
-        width: 100px;
-        margin: 20px;
-      }
-      .firstClass {
-        order: -1;
-      }
-    </style>
-  </head>
-  <body>
-    <article>
-      <h2>Article</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores error
-      similique recusandae itaque pariatur harum libero inventore, voluptates
-      eum. Eius voluptate asperiores ipsa odit dolore minima! Exercitationem
-      optio nemo a! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      Fugiat, amet animi magni repellendus a, doloremque quidem nostrum quia
-      assumenda ipsum, accusamus reprehenderit temporibus quas. Molestias
-      laudantium exercitationem accusantium nulla minus. Lorem ipsum dolor sit
-      amet, consectetur adipisicing elit. Eveniet modi reprehenderit, corporis
-      praesentium, animi explicabo consectetur a adipisci rerum laudantium nemo.
-      Eaque quod obcaecati repellat id sit porro. Ea magni nulla magnam
-      molestiae. Earum, placeat dolores enim harum praesentium illum!
-    </article>
-    <br /><br />
+                column-rule: 1px solid coral;
+            }
+            article h2 {
+                column-span: all;
+            }
+            .textBox1 {
+                border: 2px solid;
+                padding: 20px;
+                width: 300px;
+                overflow: hidden;
+                resize: both;
+            }
+            .textBox2 {
+                margin: 20px;
+                padding: 20px;
+                width: 300px;
+                height: 100px;
+                border: 1px solid red;
+                outline: 1px solid blue;
+                outline-offset: 10px;
+            }
+            .flex {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 400px;
+                height: 250px;
+                background-color: #000000;
+            }
+            .flexItem {
+                background-color: skyblue;
+                height: 100px;
+                width: 100px;
+                margin: 20px;
+            }
+            .firstClass {
+                order: -1;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <h2>Article</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            error similique recusandae itaque pariatur harum libero inventore,
+            voluptates eum. Eius voluptate asperiores ipsa odit dolore minima!
+            Exercitationem optio nemo a! Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Fugiat, amet animi magni repellendus a, doloremque
+            quidem nostrum quia assumenda ipsum, accusamus reprehenderit
+            temporibus quas. Molestias laudantium exercitationem accusantium
+            nulla minus. Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Eveniet modi reprehenderit, corporis praesentium, animi
+            explicabo consectetur a adipisci rerum laudantium nemo. Eaque quod
+            obcaecati repellat id sit porro. Ea magni nulla magnam molestiae.
+            Earum, placeat dolores enim harum praesentium illum!
+        </article>
+        <br /><br />
 
-    <div class="textBox1">try to resize this box</div>
-    <div class="textBox2">try to resize this box</div>
-    <br />
-    <!-- flex part and work around it -->
-    <div class="flex">
-      <div class="flexItem">flex1</div>
-      <div class="flexItem firstClass">flex2</div>
-      <div class="flexItem">flex3</div>
-    </div>
-  </body>
+        <div class="textBox1">try to resize this box</div>
+        <div class="textBox2">try to resize this box</div>
+        <br />
+        <!-- flex part and work around it -->
+        <div class="flex">
+            <div class="flexItem">flex1</div>
+            <div class="flexItem firstClass">flex2</div>
+            <div class="flexItem">flex3</div>
+        </div>
+    </body>
 </html>
