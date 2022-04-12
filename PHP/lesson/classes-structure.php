@@ -1,10 +1,12 @@
 <?php
+
+
 class Debug {
     public function printTile(Tile $tile){}
     public function printTileSet(TileSet $tileSet){}
 }
 
-class Tile(){
+class Tile{
     public array $tile =[];
     public function __construct(int $first, int $second){}
     
@@ -12,7 +14,8 @@ class Tile(){
     //$leftOrRight = true is comaper left, $leftOrRight = false  is compare right
     public compare(Tile $anotheTile, boolean $leftOrRight = true){}    
 }
-    
+
+
 class TileSet{
     public array $tiles=[];
     public function push(Tile $newTile, boolean $startOrEnd = true){};
@@ -34,10 +37,10 @@ class Deck extends TileSet{
     public function generateTiles(int $n){}
     public function shuffleTiles(int $numOfShuffle = 5){}
     public function getOneTile(): Tile{ return $this->getTileFrom(-1);}
-    
 
-    
 }
+
+
 
 class Table extends TileSet{
     public function checkIfTileCanBePutToTable(Tile $tile):boolean{}
@@ -64,6 +67,8 @@ class Player extends Hand{
     
 }
 
+
+
 class Game {
     public Deck $deck;
     public array $players;
@@ -71,8 +76,9 @@ class Game {
     public View $view;
     public function __construct(){}
     public function gameLoop(){}
-
 }
+
+
 
 class View{
     public function getTileHTML(Tile $tile, string $direction="vertical", int $width = 500, int $height = 250){}
