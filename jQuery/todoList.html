@@ -1,116 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Do List-1</title>
-    <link
-      rel="stylesheet"
-      href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css"
-      type="text/css"
-      media="all"
-    />
-    <script
-      src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"
-      type="text/javascript"
-    ></script>
-    <script>
-      $(document).ready(function () {
-        $("#projects").tabs();
-        $("ul").sortable({ axis: "x", containment: "#projects" });
-        $("ol").sortable({ axis: "y", containment: "#projects" });
-        $("#btnAddProjects")
-          .button()
-          .click(function () {
-            $("#project-dialog").dialog({
-              width: 400,
-              resizable: false,
-              modal: true,
-              buttons: {
-                "Add new Project": function () {
-                  var projectName = $("#newProject").val();
-                  $(
-                    "<li><a href='#" +
-                      projectName +
-                      "'>" +
-                      projectName +
-                      "</a></li>"
-                  ).appendTo("#main");
-                  $("#projects").tabs("refresh");
-                  $("#newProject").val("");
-                  $(this).dialog("close");
-                },
-                "Cancel": function () {
-                  $("#newProject").val("");
-                  $(this).dialog("close");
-                },
-              },
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do List-1</title>
+        <link
+            rel="stylesheet"
+            href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css"
+            type="text/css"
+            media="all"
+        />
+        <script
+            src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.min.js"
+            type="text/javascript"
+        ></script>
+        <script
+            src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"
+            type="text/javascript"
+        ></script>
+        <script>
+            $(document).ready(function () {
+                $("#projects").tabs();
+                $("ul").sortable({ axis: "x", containment: "#projects" });
+                $("ol").sortable({ axis: "y", containment: "#projects" });
+                $("#btnAddProjects")
+                    .button()
+                    .click(function () {
+                        $("#project-dialog").dialog({
+                            width: 400,
+                            resizable: false,
+                            modal: true,
+                            buttons: {
+                                "Add new Project": function () {
+                                    var projectName = $("#newProject").val();
+                                    $(
+                                        "<li><a href='#" +
+                                            projectName +
+                                            "'>" +
+                                            projectName +
+                                            "</a></li>"
+                                    ).appendTo("#main");
+                                    $("#projects").tabs("refresh");
+                                    $("#newProject").val("");
+                                    $(this).dialog("close");
+                                },
+                                Cancel: function () {
+                                    $("#newProject").val("");
+                                    $(this).dialog("close");
+                                },
+                            },
+                        });
+                    });
             });
-          });
-      });
-    </script>
-    <!-- style part  -->
-    <style>
-      #container {
-        width: 60%;
-        height: 70%;
-        margin: 10% auto;
-        border: 2px solid green;
-        border-radius: 10px;
-      }
-      h2 {
-        color: rgb(125, 181, 66);
-        text-align: center;
-      }
-      #projects {
-        width: 90%;
-        height: 250px;
-        margin: 3% auto;
-      }
-      ol li {
-        border: 1px dotted black;
-        cursor: pointer;
-        padding: 5px;
-        margin-bottom: 5px;
-      }
-      ol li:hover {
-        background-color: skyblue;
-      }
-      #btnAddProjects {
-        margin-left: 81.5%;
-      }
-    </style>
-  </head>
-  <!-- ----------     body part -------- -->
-  <body>
-    <div id="container">
-      <h2>To Do List</h2>
-      <!-- add the button for the projects -->
-      <button id="btnAddProjects">Add Project</button>
-      <div id="projects">
-        <ul id="main">
-          <li><a href="#personal">Personal</a></li>
-          <li><a href="#work">Work</a></li>
-        </ul>
-        <ol id="personal">
-          <li><input type="checkbox" />Doctor appointment</li>
-          <li><input type="checkbox" />Call the plumber</li>
-        </ol>
-        <ol id="work">
-          <li><input type="checkbox" />Complete test case document</li>
-          <li><input type="checkbox" />Meet project manager</li>
-          <li><input type="checkbox" />Working for jQuery project</li>
-        </ol>
-      </div>
-      <div id="project-dialog" title="add new project" style="display: none">
-        <label for="newProject">Project name</label>
-        <input type="text" id="newProject" />
-    </div>
-    <!--  button for the add Task -->
-    </div>
-  </body>
+        </script>
+        <!-- style part  -->
+        <style>
+            #container {
+                width: 60%;
+                height: 70%;
+                margin: 10% auto;
+                border: 2px solid green;
+                border-radius: 10px;
+            }
+            h2 {
+                color: rgb(125, 181, 66);
+                text-align: center;
+            }
+            #projects {
+                width: 90%;
+                height: 250px;
+                margin: 3% auto;
+            }
+            ol li {
+                border: 1px dotted black;
+                cursor: pointer;
+                padding: 5px;
+                margin-bottom: 5px;
+            }
+            ol li:hover {
+                background-color: skyblue;
+            }
+            #btnAddProjects {
+                margin-left: 81.5%;
+            }
+        </style>
+    </head>
+    <!-- ----------     body part -------- -->
+    <body>
+        <div id="container">
+            <h2>To Do List</h2>
+            <!-- add the button for the projects -->
+            <button id="btnAddProjects">Add Project</button>
+            <div id="projects">
+                <ul id="main">
+                    <li><a href="#personal">Personal</a></li>
+                    <li><a href="#work">Work</a></li>
+                </ul>
+                <ol id="personal">
+                    <li><input type="checkbox" />Doctor appointment</li>
+                    <li><input type="checkbox" />Call the plumber</li>
+                </ol>
+                <ol id="work">
+                    <li>
+                        <input type="checkbox" />Complete test case document
+                    </li>
+                    <li><input type="checkbox" />Meet project manager</li>
+                    <li><input type="checkbox" />Working for jQuery project</li>
+                </ol>
+            </div>
+            <div
+                id="project-dialog"
+                title="add new project"
+                style="display: none"
+            >
+                <label for="newProject">Project name</label>
+                <input type="text" id="newProject" />
+            </div>
+            <!--  button for the add Task -->
+        </div>
+    </body>
 </html>
