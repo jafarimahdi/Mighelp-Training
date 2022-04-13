@@ -1,0 +1,203 @@
+body {
+    font-family: "open-sans", sans-serif;
+    font-size: 17px;
+}
+*{
+     margin: 0;
+    padding: 0;
+}
+.container {
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* Main-header */
+.primary-text{
+    color: #56a79a;
+    
+}
+
+#main-header {
+    border-bottom: 1px solid #56a79a;
+    justify-content: center;
+    padding: 1rem ;
+}
+#navBar ul{
+    float: right;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+#navBar li{
+    display: inline; 
+    margin-right:.7rem;
+}
+#navBar a{
+    color: gray;
+}
+.current, #navBar a:hover{
+    color:#56a79a;
+    border-bottom: 3px solid#56a79a;
+    padding-bottom: .2rem;   
+}
+
+
+/* SHOW-CASE  */
+#show-case{
+    background: url(../images/showcase.jpg) no-repeat center center;
+    border-bottom: 1px solid  #56a79a;
+    margin-bottom: 30px;
+    
+}
+#show-case .row{
+    height: 600px;
+}
+#show-case h1{
+    font-size: 2.9rem;   
+    color: #fff;
+    padding-bottom: 1.3rem;
+}
+#show-case p{
+    color: #fff; 
+}
+
+.showcase-content{
+    background-color:#333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: .8;
+}
+/* Features */
+#features h2{
+    font-size: 2.6rem;
+    margin-bottom: .5rem;
+}
+#features p{
+    color: #888;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+#features i{
+    font-size: 4rem;
+    color: #56a79a;
+    margin-bottom: 1rem;
+}
+#features h4{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+/* Info */
+#info{
+    background:#333 url(../images/info-bg.jpg) no-repeat center center;
+    color:#fff;
+}
+#info h4{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}   
+#info ul li{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+/* Company */
+#company{
+    background-color:#333333;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+#company h4{
+    font-size: 1.4rem;
+    padding-bottom: 1.1rem;
+}
+#company li{
+    line-height: 2.2rem;
+}
+#company input{
+    margin-top: 1rem;
+    padding: .4rem;
+}
+#company button{
+    margin-top: 1rem;
+    padding: .53rem;
+    color: #fff;
+    background-color: #222;
+    border: 0;
+}
+/* footer */
+#main-footer{
+    color: #fff;
+    background-color:#56a79a;
+    padding: 1rem;
+}
+/* about us  */
+#subheader h1{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+#page h2{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+#page p{
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+/* services */
+#main-services h1{
+    padding-top: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#page h3{
+    padding: 1.5rem 0;
+}
+#page ul li:nth-child(odd){
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0 ;
+}
+#page ul li:nth-child(even){
+    background-color: #56a79a;
+    color: #fff;
+    padding: 1rem 0 ;
+}
+#page ul{
+    margin-bottom: 2.8rem;
+}
+/* contact */
+.contact form{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.contact form input{
+    padding: .7rem;
+    width: 50%;
+    margin: .5rem 0;
+}
+.contact form textarea{
+    padding: 3rem;
+    width: 43.7%;
+    margin: .5rem 0;
+}
+
+.contact form button{
+    color: #fff;
+    background-color: black;
+    width: 52.5%;
+    padding: 1rem 0;
+    border: 0;
+    font-size: 1rem;
+    margin: .3rem 0;
+}
+.contact form label{
+    margin-top: 14rem;
+
+}

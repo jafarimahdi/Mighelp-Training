@@ -1,0 +1,18 @@
+div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.dogBtn{
+  padding: 10px 20px;
+  background-color: #3E505B;
+  color: white;
+  border: none;
+}
+.dogImage{
+  width: 800px;
+  height: 600px;
+}
+

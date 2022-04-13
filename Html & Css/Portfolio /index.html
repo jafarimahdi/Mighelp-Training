@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio Web Site </title>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="nav-wrap">
+            <div class="right-side">
+                <a class="active-page" href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="left-side">
+                <p> Jafari Mahdi</p>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio1.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/quip.png" alt="crondose">
+                        <p>I built the Quip Ecommerce platform, named a Top 25 Invention by Time Magazine in 2020.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio2.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/devcamp.png" alt="dailysmarty">
+                        <p>Coding bootcamp and learning management system.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio3.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/eventbrite.png" alt="dashtrack">
+                        <p>Eventbrite is the leading event management platform on the web with millions of individuals
+                            utilizing their applications to find, register or, and management events in numerous
+                            industries.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio4.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/shop-hacker.png" alt="devcamp">
+                        <p>Shop Hacker allows you to easily import digital products such as elearning courses,
+                            software, and games directly into your ecommerce store.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio5.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/crondose.png" alt="devtrunk">
+                        <p>Online tutorials and productivity tips.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio6.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/dailysmarty.png" alt="edutechional">
+                        <p>Keep track of what you learn every day.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio7.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/dashtrack.png" alt="eventbrite">
+                        <p>What you track improves. DashTrack is a journal that makes it easy to track
+                            your daily tasks and make the most of your time each day.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio8.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/devtrunk.png" alt="ministry-safe">
+                        <p>Online shop for developer happiness.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio9.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/edutechional.png" alt="open-devos">
+                        <p>Online technology tutorials.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio10.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/ministry-safe.png" alt="quip">
+                        <p>A complete child safety system for organizations.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio11.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/open-devos.png" alt="shop-hacker">
+                        <p>Publish and share daily devotionals.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-image-background" style="background-image:url(images/portfolio12.jpg);"></div>
+                    <div class="image-text-wrapper">
+                        <img src="images/logos/toastability.png" alt="toastability">
+                        <p>Easy way to manage the digital life of your bar or restaurant.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<!--  Make the dark background in hover by 2 way:
+    1- use the  *filter* function after hover
+        .firstClass:hover .secondClass{ filter:brightness(10%)}
+
+    2- javascript way and add or remove the light class or dark class
+
+-->
+<script>
+
+    let portfolios = document.querySelectorAll('.portfolio-item-wrapper');
+
+    portfolios.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.childNodes[1].classList.add('image-darken');
+        })
+        item.addEventListener('mouseout', () => {
+            item.childNodes[1].classList.remove('image-darken');
+        })
+    }) 
+</script>
+
+</html>

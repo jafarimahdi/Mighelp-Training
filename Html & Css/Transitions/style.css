@@ -1,0 +1,49 @@
+.title{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images{
+display: flex;
+justify-content: space-around;
+
+}
+.image-container{
+  height: 500px;
+  width: 800px;
+  position: relative;
+}  
+.image-container img{
+  width: 98%;
+  height: 96%;
+}
+.Transition-image{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+.Transition-image:hover{
+  opacity: 1;
+}
+.fade::after{
+content: "Enjoy. Life Is Short";
+color: antiquewhite;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+background: black;
+width : 98%;
+height: 96%;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: opacity 0.5s ease 
+}
+.fade:hover::after{
+  opacity: 0.4;
+}

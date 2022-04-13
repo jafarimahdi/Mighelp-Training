@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Section 5: Advanced JavaScript: Objects and Functions</title>
+    </head>
+
+    <body>
+        <h1>Section 5: Advanced JavaScript: Objects and Functions</h1>
+        <br />
+        <h3>CODING CHALLENGE</h3>
+        <br />
+
+        <h4>Let's build a fun quiz game in the console!</h4>
+        <ul>
+            <li>
+                1. Build a function constructor called Question to describe a
+                question. A question should include:
+                <ul>
+                    <li>a) question itself</li>
+                    <li>
+                        b) the answers from which the player can choose the
+                        correct one (choose an adequate data structure here,
+                        array, object, etc.)
+                    </li>
+                    <li>c) correct answer (I would use a number for this)</li>
+                </ul>
+            </li>
+            <br />
+
+            <li>2. Create a couple of questions using the constructor</li>
+
+            <li>3. Store them all inside an array</li>
+
+            <li>
+                4. Select one random question and log it on the console,
+                together with the possible answers (each question should have a
+                number) (Hint: write a method for the Question objects for this
+                task).
+            </li>
+
+            <li>
+                5. Use the 'prompt' function to ask the user for the correct
+                answer. The user should input the number of the correct answer
+                such as you displayed it on Task 4.
+            </li>
+
+            <li>
+                6. Check if the answer is correct and print to the console
+                whether the answer is correct ot nor (Hint: write another method
+                for this).
+            </li>
+
+            <li>
+                7. Suppose this code would be a plugin for other programmers to
+                use in their code. So make sure that all your code is private
+                and doesn't interfere with the other programmers code (Hint: we
+                learned a special technique to do exactly that).
+            </li>
+        </ul>
+
+        <h4>Expert level :</h4>
+
+        <ul>
+            <li>
+                8. After you display the result, display the next random
+                question, so that the game never ends <br />
+                <span style="color: red"
+                    >(Hint: write a function for this and call it right after
+                    displaying the result)</span
+                >
+            </li>
+            <br />
+
+            <li>
+                9. Be careful: after Task 8, the game literally never ends. So
+                include the option to quit the game if the user writes 'exit'
+                instead of the answer. In this case, DON'T call the function
+                from task 8.
+            </li>
+
+            <li>
+                10. Track the user's score to make the game more fun! So each
+                time an answer is correct, add 1 point to the score (Hint: I'm
+                going to use the power of closures for this, but you don't have
+                to, just do this with the tools you feel more comfortable at
+                this point).
+            </li>
+
+            <li>
+                11. Display the score in the console. Use yet another method for
+                this.
+            </li>
+        </ul>
+
+        <script src="script.js"></script>
+    </body>
+</html>

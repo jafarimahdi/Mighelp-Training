@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: #3f3f44;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #f7f7f7;
+    font-family: "Hind", sans-serif;
+}
+.title {
+    font-weight: 800;
+    color: #abd492;
+}
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inputDiv .input {
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    width: 65vw;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+    box-shadow: -4px -4px 3px 0px rgba(48, 46, 46, 0.502),
+        4px 4px 3px 0px rgba(24, 23, 23, 0.858);
+}
+.add {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #abd492;
+    margin: 0.25px;
+    cursor: pointer;
+    box-shadow: -4px -4px 3px 0px rgba(48, 46, 46, 0.789),
+        4px 4px 3px 0px rgb(24, 23, 23);
+}
+.add:hover {
+    color: #3f3f44;
+    background-color: #abd492;
+    opacity: 0.7;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item {
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid rgba(7, 7, 7, 0.337);
+}
+.item_input {
+    background: none;
+    outline: none;
+    color: #f7f7f7;
+    border: none;
+    width: 45vw;
+    font-size: 1.4rem;
+}
+.edit {
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    font-family: "Hind", sans-serif;
+    background: none;
+    border: none;
+    color: #abd492;
+    outline: none;
+    cursor: pointer;
+}
+.edit:hover{ 
+    font-size: 1.7rem;
+    transition: 0.3s;
+}
+.remove {
+    font-size: 1.2rem;
+    font-family: "Hind", sans-serif;
+    background: none;
+    border: none;
+    color: #f37507;
+    outline: none;
+    cursor: pointer;
+}
+.remove:hover{ 
+    font-size: 1.7rem;
+    transition: 0.3s;
+    border-bottom: #f7f7f7;
+    
+}
+
+.editText{
+    color:rgb(79, 82, 82);
+    text-decoration-line: line-through;
+}

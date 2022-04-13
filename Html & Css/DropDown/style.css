@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    background-image: url(table.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+    text-align: center; 
+}
+/* ---   List  --- */
+.menuBar ul {
+    list-style: none;
+    display: inline-flex;
+    background-color: rgba(211, 211, 211, 0.37);
+    margin-top: 2%;
+    height: 5vh;
+    border-radius: 8px;
+}
+.menuBar ul li{
+    padding-top: 1%;
+    width: 100px;
+    text-align: center;
+}
+.home , .menuBar ul li:hover{
+    background-color: #434e5259;
+    border-radius: 5px;
+    color: white;
+}
+.menuBar .fa {
+    margin-right: 8px;
+}
+.menuBar-2{
+    position: absolute;
+    margin-top: 1.5vh;
+    
+}
+.menuBar ul li li {
+padding: 1vh;
+display: none;
+}
+.menuBar ul li:hover li {
+    background-color: rgba(211, 211, 211, 0.37); 
+    color: black;
+    display: block;
+    margin: 0.9%;
+}
+.menuBar ul li:hover li:hover{
+    background-color: #434e5259;
+    border-radius: 0.5vh;
+    border-bottom: 2px solid black;
+    color: white;
+}
+.menuBar ul li:hover ul{
+    display: block;
+}
+.menuBar ul li:hover ul ul{
+    display: none;
+}
+.menuBar ul li:hover ul li:hover ul{
+    display: block;
+}
+.menuBar-2 > .menuBar-3 {
+    position: absolute;
+    margin-left: 11.7vh;
+    top: -5vh;
+}
+.menuBar-2 > ul > li > ul{
+    position: absolute;
+    margin-left: 11.7vh;
+    top: 8.8vh;
+}
+.menuBar-4 > ul > li > ul{
+    position: absolute;
+    top: 4.4vh;
+}

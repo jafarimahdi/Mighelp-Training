@@ -1,0 +1,150 @@
+/* Basic setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+  font-size: 11px;
+  scroll-behavior: smooth;
+}
+:root {
+  --dark-color: rgb(41, 68, 34);
+  --light-color: rgb(151, 153, 82);
+}
+/* ------------------ */
+#home{
+  background: url(images/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+#home nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3rem;
+  padding-top: 2rem;
+}
+#home nav img{
+  width: 10%;
+  height: 10%;
+  opacity: .9;
+}
+#home nav ul{
+  display: flex;
+  margin-right: 8rem;
+  list-style: none;
+}
+#home nav ul li a{
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-size: 2.7rem;
+  color: var(--dark-color);
+}
+.herotext{
+  position: absolute;
+  top: 33%;
+  left: 18%;
+  text-transform: uppercase;
+}
+.herotext h1{
+  font-size: 7rem;
+  color: var(--light-color);
+}
+.herotext span{
+  font-size: 8.9rem;
+  color: var(--dark-color);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 75vw;
+  margin: 1rem auto;
+  padding: 5rem 0;
+}
+.text{
+  width: 100%;
+  vertical-align: center;
+}
+.text h1{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.text p{
+  padding: 3.1rem;
+  font-size: 2.2rem;
+}
+.text button{
+  margin-top: 2.5rem;
+  margin-left: 11rem;
+  padding: .2rem 3rem;
+  text-align: center;
+  background-color: var(--dark-color);
+  border-radius: 15px;
+  color: white;
+  font-size: 1.3rem;
+}
+.text button a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+}
+.text h4{
+  padding-top: 1.2rem;
+  margin-left: 8rem;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-family: serif;
+}
+.pic{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: .5rem;
+  width: 85%;
+}
+.pic img{
+  width: 100%;
+  height: 27vh;
+  border-radius: 10px;
+}
+#team{
+  background: url(images/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+}
+form input {
+  margin-left: 8rem;
+  padding-right: 11rem;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 1.2rem;
+}
+body > button{
+  position: relative;
+  float: right;
+  margin-right: 3%;
+}
+body > button a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0.8rem;
+  color: white;
+  background-color: var(--dark-color);
+  border-radius: 8px;
+}
+.copyright{
+  text-align: center;
+  padding: .4rem;
+  font-size: 1.4rem;
+}

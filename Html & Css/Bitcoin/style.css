@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    font-family: serif Georgia, 'Times New Roman', Times;
+    color: #faf4ff;
+    background-color:#a07e21;
+    text-transform: uppercase;
+}
+i:hover, li:hover{
+    color: black;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.2rem;
+    align-content: center;
+    width: 100vw;
+}
+.nav .logo img{
+    position: absolute;
+    top: 0;
+    left: 4%;
+    width: 8%;
+}
+.nav .menu ul{
+    display: flex;
+    margin-left: -22rem;
+}
+.nav .menu ul li{
+    margin-left: 3.3rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1rem;
+}
+.nav .sing-up {
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+/*  ------ main part ---- */
+.main{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    width: 30%;
+}
+.main h1{
+    word-spacing: 0.3rem;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.main p{
+    word-spacing: 0.2rem;
+    opacity: 0.6;
+}
+.pic{
+    position: absolute;
+    top: 27%;
+    right: 18%;
+    opacity: .5;
+}
+.main i{
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 2rem;
+    font-size: 2rem;
+}
+.main i:hover{
+    color: black;
+}
+.media{
+    position: absolute;
+    right: 2rem;
+    bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.media i{
+    font-size: 1.3rem;
+    margin: .5rem;
+    padding: .3rem;
+    transform: font-size 11.5s;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.media >i:hover{
+    position: relative;
+    color:black;
+    cursor: pointer;
+    border-color: black;
+}
+footer{
+position: absolute;
+bottom: 1rem;
+left: 1rem;
+}
+footer ul{
+    display: inline-flex;
+   margin: 1rem auto;
+    text-align: center;
+   
+}
+footer ul li{
+    list-style: none;
+    margin: 0 .4rem;
+}
+footer ul li {
+   font-size: 1.3rem;   
+}
+footer ul li p{
+    font-size: .7rem;
+    padding-top: .4rem;
+}
+#more{
+    position: absolute;
+    top: 13rem;
+    left: 4rem;
+    opacity: 1;
+}
+#more:hover{
+    color: black;
+    cursor: pointer;
+}

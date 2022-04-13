@@ -1,0 +1,130 @@
+/*   Master Style    */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif,Georgia, 'Times New Roman', Times;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+}
+/*       -----  Grid -----   */  
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*   -------- NAV Style ---------  */ 
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-wrap > div{
+    padding: 1.7rem;
+}
+.nav-wrap > div > a{
+    padding: 0.8rem;
+    color: #848484;
+}
+.right-side  > a{
+    text-decoration: none;
+}
+
+.right-side  a:hover{
+    border-bottom: 1px solid rgb(197, 45, 45);
+    color: black;
+    transition: border-bottom 3.5s; 
+    font-size: 1.1rem;
+}
+
+/*   ------  Portfolio Styles -----     */
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper{
+    position: relative;
+}
+.portfolio-image-background{
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.image-text-wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.image-text-wrapper img{
+width: 30%;
+padding-bottom: 4rem;
+
+}
+.image-text-wrapper p{
+    color: transparent;
+    transition: 1s;
+    font-weight: 600;
+    font-size: .7rem;
+    text-align: center;
+
+}
+.active-page {
+    border-bottom: 1px solid black;
+}
+.active-page a {
+    color: black !important;
+}
+
+
+/*    ------ Hover stuff --------     */
+
+.portfolio-item-wrapper:hover p{
+    color: darkseagreen;
+    font-weight: 600;
+
+}
+/*  first way to use just CSS */ /*
+.portfolio-item-wrapper:hover .portfolio-image-background{
+    transition: 1s;
+    filter: brightness(25%);
+}
+*/
+/* second way use javascript for dark background */
+.image-darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+/*  ------  about page ------ */
+
+.content-wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content-wrapper2 .pic img{
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+
+}
+.content-wrapper2 .text{
+    text-align: center;
+    transform: translateY(10%);
+}
+
+.content-wrapper2 .text p{
+    padding-top: 6%;
+    padding-right: 2%;
+    padding-left: 2%;
+    line-height: 1.5rem;
+}

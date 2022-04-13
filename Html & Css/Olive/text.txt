@@ -1,0 +1,65 @@
+**** Hero text  ******
+
+Olive Learning Initiative
+
+****** about part ****
+
+<p>
+    We are Open Education, a non-profit organization affiliated with the
+    Central European University (CEU).<br />
+    We are dedicated to creating a safe and inclusive learning space for
+    people who have experienced displacement, including asylum seekers and
+    those with refugee status.We run a weekend program called OLIve (Open
+    Learning Initiative) located in the premises of CEU. 
+</p>
+
+Link video : https://youtu.be/tJ735Bh5t3c
+
+
+***** Seminar   ******
+
+<p>
+    OLIve Weekend Programme runs the Open Seminar Series every Saturday
+    online. The seminar is for all of the CEU and international OLIve
+    community. Guests are welcome if respectful of the learning
+    environment.
+</p>
+
+Button => https://openeducation.group/open-seminars/
+
+
+**** our team  *****
+
+<p>
+    We stand for equality in access to education. We believe in
+    providing those who have experienced displacement with tools to
+    foster inclusion and also to take part in national and societal
+    debates about the terms of their inclusion. We are motivated by a
+    sense that refugees and asylum seekers are subject to short term
+    thinking about integration, as well as discourses and policies based
+    on fear and impressions of security threats that have a negative
+    impact on the welfare and migration projects of refugees and their
+    families.
+</p>
+
+button => https://openeducation.group/team/
+
+
+**** contact   *******
+
+
+map => https://goo.gl/maps/LjJLS12uTeuN9HJu6
+
+
+    Contact
+    Budapest, Nador Utca 15
+    + 36 1 327 2763
+    open@openeducation.group
+    Every Saturday March 7 till June 27 (Except Easter)
+
+****   footer  ****
+
+    <p class="copyright">
+      Copyright &#169; Spring 2020, Central European University ( Olive WP ) By
+      Jafari Mahdi. All Rights Reserved | Privacy Policy
+    </p>
