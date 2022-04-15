@@ -26,15 +26,44 @@
 
 
 
-    -   Web Storage API & Geolocation
+    -  Web Storage API & Geolocation
 
         - Storing forms & caching events with local storage, Storing & Accessing JSON data, Understanding Latitude, Longitude, Speed, Course & Accuracy, Mapping location, 
 
-
-
-
 - ## CSS3
-    - Syntax, Selectors, Box Model, Background & Image, Values and Replaced, Content Text, Effects2D, Transformations, 3D Transformations, Animations,Transition, Multiple Column, LayoutUser Interface, Media Queries, Namespaces, Colors, FlexBox, GridLayout, Responsive WebDesign, 
+
+    - BORDER AND BOX EFFECTS 
+
+        - Syntax, Selectors, Differences in Implementation Across, Images & MultiColors Border, Drop Shadow, Box Effects
+
+    - Background & other Decorative 
+
+        - PROPERTIES, Background Images, Multiple Background Images, Background Size, Background Clip and Origin, background-repeat, Background Image Clipping, Image Masks
+
+    - 2D TRANSFORMATIONS
+
+        -  transform Property, rotate, Position in Document Flow, transform-origin, translate, skew, scale, Multiple Transformations, Transforming Elements with Matrices, Reflections with WebKit
+
+    - 3D TRANSFORMATIONS
+
+        - 3D Elements in CSS, Transform Style, The Transformation Functions, Rotation Around an Axis, Translation Along the Axis, Scaling, Transformation Matrix, Perspective
+
+    - TRANSITIONS AND ANIMATIONS
+
+        - Transitions, Property, Duration, Timing Function, Delay, Shorthand, The Complete Transition Example, Multiple Transitions, Triggers, More Complex Animations, Key Frames, Animation Properties, The Complete Animations Example, Multiple Animations
+
+
+    - MEDIA QUERIES and Responsive Design 
+
+        - Media Features, Width and Height, Device Width and Height, Using Media Queries in the Real World, Orientation, Aspect Ratio, Pixel Ratio, Multiple Media Feature
+
+
+    - FlexBox & Grid System 
+
+        - 
+
+
+
 
 
 - ### JavaScript
