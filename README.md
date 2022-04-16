@@ -60,9 +60,22 @@
 
     - FlexBox & Grid System 
 
-        - 
+        - Syntax, Alignment & Distribution on Main Axis & Cross Axis,Flex Direction,auto Margin,  Flex-Grow, Flex-Shrink, & Flex-Basis, Aligning All vs. Specific Flex Items, Nesting Flexbox, Flex Shorthand,Vertical Centering and Full Background, Flex-Wrap, Sizing Flex Items
 
 
+- ### Bootstrap 
+
+    - Grid
+
+        - Container, Offset Column, Reordering Columns, Display responsive Images, class properties, readymade themes, customize components, Less variables, and jQuery plug-in, Typography, Tables, Form Layout, Button, Carets Classes
+
+    - Components
+
+        - Different types of Bootstrap Components, Glyphicons, Dropdown Menu, Button Groups and Button Toolbar, Input Groups, Navigation Pills & Tabs, Navbar, Forms and other controls to Navbar, Breadcrumb, Pagination, Labels / Badge, Jumbotron / Page Header, Thumbnail, Alerts & Dismissible, Progress Bar, Media Objects, List Group, Panel Component 
+
+    - Bootstrap Plug-Ins 
+
+        - Transition Plug-in, Modal Dialog Box, Properties, Methods and Events of Model Dialog Box, Scrollspy, Tab, Drop Down, Tooltip, Button Plug-in, Popover, alert, Collapse, Carousel, Affix
 
 
 
