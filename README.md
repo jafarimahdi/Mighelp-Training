@@ -81,4 +81,78 @@
 
 - ### JavaScript
 
-    - Fundamental 
+
+
+    - Syntax, Variables, Values, Data Types
+
+        - Syntax review, Keywords and reserwed words, Variable declaration, Variable scope(Var, Let, Const ), Block scope vs Global scoop, Function scope(Var)
+
+    - Data Types
+
+        - Primitive values, Reference values, Types, Type conventions 
+
+    - Expressions and Operators
+
+        - Expressions (arithmetic, relational, logical, assigment and others), Operators overview.
+
+    - Control structures
+
+        - Flow control and conditionals, Loops and iteration, Jumps, while, Switch, for 
+
+    - Error handling
+
+        - Throwing errors, Error handling( try, Catch, finally, throw )
+
+    - Numbers
+
+        - Number literals, Number object, Number methods, Math object, Date object, converting  Numbers
+
+    - Strings
+
+        - String literals, String object, String methods, converting Strings.
+
+    - Arrays
+
+        - Creating and populating Arrays, Array methods, Converting Arrays, Nested & 2D Arrays
+    
+    - Functions
+
+        - Defining functions, Calling functions, Functions as values, Arguments vs parameters, Function scope, Closures, Arrow functions. 
+
+    - Indexed Collection ( SET, MAP )
+
+        - Set Performance, Methods, Properties, iteration
+        - Map Performance, Properties, Methods
+
+    - JSON
+
+        - JSON.Stringify and JSON.parse 
+
+
+
+    - Objects
+
+        - Creating Objects, add & delete property form a object, update a property in object, add function to Object, 
+
+-----------------
+
+
+
+
+
+ - Variable declaration, Operators, Control Statements, Error Handling, Understanding arrays, Function Declaration
+
+    - Functions & Form 
+        - Built in Function, Standard Date and Time Functions, HTML form and its elements, 
+
+    - DOM
+
+        - 
+    
+    - Objects and Classes
+
+        - Working with Objects, Call method, classes, constructor,  subClass, Inheritance, polymorphism 
+
+    - Cookies
+
+        - 
