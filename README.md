@@ -6,7 +6,7 @@
 - ## HTML5 
     -  Basic Page Layout and Semantic Elements
 
-        - Syntax, Attributes, Events, Table,, Header, Navigation, Section & Articles, Footer, Aside 
+        - Tags, Attributes, Events, Table,, Header, Navigation, Section & Articles, Footer, Aside 
 
     - HTML5 Web Forms
 
@@ -75,33 +75,29 @@
 
     - Bootstrap Plug-Ins 
 
-        - Transition Plug-in, Modal Dialog Box, Properties, Methods and Events of Model Dialog Box, Scrollspy, Tab, Drop Down, Tooltip, Button Plug-in, Popover, alert, Collapse, Carousel, Affix
+        - Transition Plug-in, Modal Dialog Box, Properties, Methods and Events of Model Dialog Box, ScrollSpy, Tab, Drop Down, Tooltip, Button Plug-in, Popover, alert, Collapse, Carousel, Affix
 
 
 
 - ### JavaScript
 
-
-
     - Syntax, Variables, Values, Data Types
 
-        - Syntax review, Keywords and reserwed words, Variable declaration, Variable scope(Var, Let, Const ), Block scope vs Global scoop, Function scope(Var)
-
-    - Data Types
+        - Syntax review, Keywords and reserved words, Variable declaration, Variable Scope(Var, Let, Const ), Block vs Function scope(Var)
 
         - Primitive values, Reference values, Types, Type conventions 
 
     - Expressions and Operators
 
-        - Expressions (arithmetic, relational, logical, assigment and others), Operators overview.
+        - Expressions (arithmetic, relational, logical, assignment and others), Operators overview.
 
     - Control structures
 
-        - Flow control and conditionals, Loops and iteration, Jumps, while, Switch, for 
+        - Flow control and conditionals, if, else if, else, Loops and iteration, (while, do while, Switch, for, Break, Continue)
 
     - Error handling
 
-        - Throwing errors, Error handling( try, Catch, finally, throw )
+        - Throwing errors, Try, Catch, Finally, Throw )
 
     - Numbers
 
@@ -117,7 +113,7 @@
     
     - Functions
 
-        - Defining functions, Calling functions, Functions as values, Arguments vs parameters, Function scope, Closures, Arrow functions. 
+        - Defining functions, Calling functions, Functions as values, Arguments vs parameters, Function scope, Closures, Arrow functions. Anonymous Function 
 
     - Indexed Collection ( SET, MAP )
 
@@ -128,11 +124,65 @@
 
         - JSON.Stringify and JSON.parse 
 
+    - Iterators and Generators, 
 
+        - Working with Iterators & Generators, Next(), done, *generator(), yield 
+
+    - Module 
+
+        - import{ }, export, "use Strict " 
+
+    - CallBack, Promise, Async await    
+
+    - Regular Expression
+
+        - Creating regular expressions, RegExp object and its methods, String methods for matching patterns.
 
     - Objects
 
         - Creating Objects, add & delete property form a object, update a property in object, add function to Object, 
+
+    - Prototype based Object Oriented Programming
+
+        - Defining Constructors, Prototypes, Inheritance
+
+    - Classes & inheritance 
+
+        - Constructor, extend, super 
+
+- ### JavaScript in Web Browser
+
+
+    - Browser Object Model(BOM)
+
+        - Widow: Understand the window( size,open&close,reSize, move ), Alert, Confirm, Prompt, SetTimeOut, setInterval
+
+        - Location: Location(protocol, prot,hash, origin,host, search, pathName), Get Query String Parameters, Redirect to a new URL(href, assign, replace)
+
+        - Navigator
+
+        - Screen
+
+        - History
+
+            - go, back,forward, length
+
+    - Document Object Model(DOM)
+
+        - Document structure, Selecting document elements and query selectors, Moving thorough DOM tree, HTML elements and attributes, Creating, changing and deleting nodes.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -----------------
 
