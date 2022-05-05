@@ -165,6 +165,18 @@
 
         -   Document structure, Selecting document and query selectors, Moving thorough DOM tree, and attributes, Creating, changing and deleting nodes & Style, Class and Events.
 
+    - Handling Events
+
+        - Event propagation, Event handlers registering and invocation, Event object, Types of event.
+    
+    
+    - Ajax
+        - JavaScript and HTTP comunication, Synchronous and asynchronous requests.
+
+    - Graphics
+
+        - Multimedia basics, Canvas API basics.
+        
     -   Data Storage
 
         -   Cookies, Web Storage, IndexedDB,
