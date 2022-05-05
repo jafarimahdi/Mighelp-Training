@@ -1,8 +1,8 @@
 # _NextStep Training_
 
-## This course supported by European Union's Asylum, Migration and Integration Fund, run by the Control Trining Továbbképzõ & Next Step Egyesület in Budapest
+#### This course supported by European Union's Asylum, Migration and Integration Fund, run by the Control Trining Továbbképzõ & Next Step Egyesület in Budapest
 
-## Course Topic:
+### Course Topic:
 
 -   ## HTML5
 
@@ -176,7 +176,7 @@
     - Graphics
 
         - Multimedia basics, Canvas API basics.
-        
+
     -   Data Storage
 
         -   Cookies, Web Storage, IndexedDB,
