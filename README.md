@@ -29,7 +29,9 @@
     -   Web Storage API & Geolocation
 
         -   Storing forms & caching events with local storage, Storing & Accessing JSON data, Understanding Latitude, Longitude, Speed, Course & Accuracy, Mapping location,
+
 ---
+
 -   ## CSS3
 
     -   BORDER AND BOX EFFECTS
@@ -59,7 +61,9 @@
     -   FlexBox & Grid System
 
         -   Syntax, Alignment & Distribution on Main Axis & Cross Axis,Flex Direction,auto Margin, Flex-Grow, Flex-Shrink, & Flex-Basis, Aligning All vs. Specific Flex Items, Nesting Flexbox, Flex Shorthand,Vertical Centering and Full Background, Flex-Wrap, Sizing Flex Items
+
 ---
+
 -   ### Bootstrap
 
     -   Grid
@@ -73,7 +77,9 @@
     -   Bootstrap Plug-Ins
 
         -   Transition Plug-in, Modal Dialog Box, Properties, Methods and Events of Model Dialog Box, ScrollSpy, Tab, Drop Down, Tooltip, Button Plug-in, Popover, alert, Collapse, Carousel, Affix
+
 ---
+
 -   ### JavaScript
 
     -   Syntax, Variables, Values, Data Types
@@ -165,17 +171,17 @@
 
         -   Document structure, Selecting document and query selectors, Moving thorough DOM tree, and attributes, Creating, changing and deleting nodes & Style, Class and Events.
 
-    - Handling Events
+    -   Handling Events
 
-        - Event propagation, Event handlers registering and invocation, Event object, Types of event.
-    
-    
-    - Ajax
-        - JavaScript and HTTP comunication, Synchronous and asynchronous requests.
+        -   Event propagation, Event handlers registering and invocation, Event object, Types of event.
 
-    - Graphics
+    -   Ajax
 
-        - Multimedia basics, Canvas API basics.
+        -   JavaScript and HTTP comunication, Synchronous and asynchronous requests.
+
+    -   Graphics
+
+        -   Multimedia basics, Canvas API basics.
 
     -   Data Storage
 
@@ -183,4 +189,3 @@
             Local Storage: key(), setItem(), removeItem(), getItem(), clear()
 
 ---
-
